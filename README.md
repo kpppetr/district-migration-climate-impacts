@@ -26,7 +26,7 @@ To reproduce all quantitative results reported in the manuscript and SI:
 Load demo data "demo_data.csv" and run the R scripts in the following order:
 
 A. code/Descriptives.R
-Generates (when using the full dataset (not the demo)):
+Generates:
 - Table S.1 — Descriptive statistics 
 - Figure S.1 — Total number of extreme climate events per district-year 
 - Figure S.2 — Histogram of years with positive/negative net migration 
@@ -34,6 +34,7 @@ Generates (when using the full dataset (not the demo)):
 - Figure S.4 — Annual trends (averaged across districts)
 - Figure S.5 — Residual plots of log(net migration) 
 - Figure S.6 — Correlation matrix (RHS vars, 1% level)
+Note: Descriptives are intended to characterize the full sample
 
 Typical runtime: ~2–6 minutes.
 
