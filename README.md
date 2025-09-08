@@ -66,3 +66,9 @@ Generates (compound events BVAR):
 - Figure S.15 — Heterogeneous effects (compound, positive net)
 
 Typical runtime: similar to single-event BVAR.
+
+## License
+
+**Software (code):** Apache License 2.0 (OSI-approved).  
+**Data & documentation:** Creative Commons Attribution 4.0 (CC BY 4.0).  
+**SPDX identifiers:** Code → `Apache-2.0`; Data → `CC-BY-4.0`.
