@@ -23,10 +23,10 @@ R package dependencies:
 Instructions for use and Demo
 To reproduce all quantitative results reported in the manuscript and SI:
 
-Load demo data "demo_climate_district_panel.csv" and run the R scripts in the following order:
+Load demo data "demo_data.csv" and run the R scripts in the following order:
 
 A. code/Descriptives.R
-Generates:
+Generates (when using the full dataset (not the demo)):
 - Table S.1 — Descriptive statistics 
 - Figure S.1 — Total number of extreme climate events per district-year 
 - Figure S.2 — Histogram of years with positive/negative net migration 
@@ -35,7 +35,7 @@ Generates:
 - Figure S.5 — Residual plots of log(net migration) 
 - Figure S.6 — Correlation matrix (RHS vars, 1% level)
 
-Typical runtime (demo/subset): ~2–6 minutes.
+Typical runtime: ~2–6 minutes.
 
 B. code/Main_Analysis.R
 Generates:
