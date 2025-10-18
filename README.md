@@ -20,10 +20,10 @@ R package dependencies:
 - Unique package list: BVAR, arm, brms, caret, car, data.table, dplyr, foreign, ggplot2, lme4, LRTesteR, mvtnorm, optimx, readr, reshape2, rgdal, sandwich, sf, stargazer, tidyr, tidyverse
 - Installation time - typically 2–8 minutes
 
-Instructions for use and Demo
+Instructions for use the data
 To reproduce all quantitative results reported in the manuscript and SI:
 
-Load demo data "demo_data.csv" and run the R scripts in the following order:
+Load data "data.csv" and run the R scripts in the following order:
 
 A. code/Descriptives.R
 Generates:
