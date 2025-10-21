@@ -1,5 +1,5 @@
 # district-migration-climate-impacts
-Replication code and data for "Differential effects of extreme climate impacts on global district-level net migration"
+Replication code and data for "Compound and heterogeneous relationships between climate extremes and global patterns of net migration"
 
 Software & versions
 - Computer: MacBook Pro
