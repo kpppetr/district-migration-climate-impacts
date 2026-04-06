@@ -30,7 +30,7 @@ Generates:
 - Table S.1 — Descriptive statistics 
 - Figure S.1 — Total number of extreme climate events per district-year 
 - Figure S.2 — Histogram of years with positive/negative net migration 
-- Figure S.3 — Density plots (key variables) 
+- Figure S.3.1 and S.3.2 — Density plots (key variables) 
 - Figure S.4 — Annual trends (averaged across districts)
 - Figure S.5 — Residual plots of log(net migration) 
 - Figure S.6 — Correlation matrix (RHS vars, 1% level)
@@ -40,32 +40,36 @@ Typical runtime: ~2–6 minutes.
 
 B. code/Main_Analysis.R
 Generates:
-- Table 2 & Table 3 (SI) — Global analysis of single climate events & net migration (fixed & random effects)
-- Table 4 — Adds crop failure to analysis
-- Figure S.7 — Marginal effects (incl. crop failure)
-- Figure S.8 — Fixed effects (SI) 
-- Figure 2 — Marginal effects (random effects)
-- Figure 3 — Model performance comparison (AIC & RMSE)
+- Table S2 & Table S3 (SI) — Global analysis of single climate events & net migration (fixed & random effects)
+- Figure S.7 — Marginal effects (country-year fixed effects)
+- Table S.4 — Adds crop failure to analysis
+- Figure S.8 — Marginal effects (incl. crop failure)
+- Table S.5 — Admin 2-year fixed effects
+- Figure S.9 — Marginal effects for admin 2-year fixed effects
+- Figure S.10 — Model performance comparison (AIC & RMSE)
+- Figure S.11 — Percentage of compound climate impact events over time
 
 Typical runtime: demo settings often ~5–10 minutes .
 
-C. code/bvar_single.R and code/bvar_single_income.R
+C. E.g., code/bpvar_single_flood.R and code/bpvar_single_fl_income.R
 Generates (single events BVAR):
-- Figure 4 (main text) — effects from BVAR single-event models
-- Figure S.12 — Heterogeneous effects: negative net migration
-- Figure S.13 — Heterogeneous effects: positive net migration 
 
-Typical runtime: demo settings often ~5–20 minutes each.
+Figure 3 (main text) — effects from hierarchical panel BVAR single-event models
+Figure S.12 — Full sample results
+Figure S.14 — Heterogeneous effects by income: negative net migration
+Figure S.15 — Heterogeneous effects by income: positive net migration
 
-D. code/bvar_compound.R and code/bvar_compound_income.R
+Typical runtime: Full production settings (62,500 burn-in, 62,500 post-burn-in, thinning=20) require approximately 12 hours per model on a computing cluster. 
 
+D. code/bpvar_compound_flood.R and code/bpvar_compound_fl_income.R
 Generates (compound events BVAR):
-- Figure 5 (main text) — Compound climate events and net migration
-- Figure S.9 (SI) — Descriptives for compound events 
-- Figure S.14 — Heterogeneous effects (compound, negative net)
-- Figure S.15 — Heterogeneous effects (compound, positive net)
 
-Typical runtime: similar to single-event BVAR.
+Figure 4 (main text) — Compound climate events and net migration
+Figure S.13 (SI) — Full sample compound effects
+Figure S.16 — Heterogeneous effects by income (compound, negative net migration)
+Figure S.17 — Heterogeneous effects by income (compound, positive net migration)
+
+Typical runtime: Full production settings (62,500 burn-in, 62,500 post-burn-in, thinning=20) require approximately 12 hours per model on a computing cluster.
 
 ## License
 
